@@ -1,0 +1,19 @@
+.search-results-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 85vh;
+    margin: 10px;
+}
+
+.search-results-title {
+    margin-bottom: 15px;
+}
+
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}

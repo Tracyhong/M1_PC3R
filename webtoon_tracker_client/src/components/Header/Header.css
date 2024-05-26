@@ -1,0 +1,156 @@
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: top 0.3s;
+    z-index: 1000;
+}
+
+.header-hide {
+    top: -50px;
+}
+
+.header-show {
+    top: 0;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0;
+}
+
+.header-nav .end {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav a {
+    margin-left: 40px; /* Increased margin for better spacing */
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.header-nav a:hover {
+    color: #007BFF;
+}
+
+.header-nav a:active {
+    color: #0056b3;
+}
+
+.header-nav form.header-search-form {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+
+.header-search-form button {
+    padding: 5px 10px;
+}
+
+.logo-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+}
+
+.logo-text {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.header-nav form.header-search-form {
+     display: inline-block;
+     margin-left: 20px;
+     border: 1px solid #ccc;
+     border-radius: 20px;
+     overflow: hidden;
+    height: auto;
+ }
+
+.header-search-form input {
+    padding-left: 5px ;
+    margin: 0;
+    border: none;
+    outline: none;
+    width: 160px;
+}
+
+.header-search-form button {
+    padding: 5px;
+    margin: 0;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 20px 0 0 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.header-search-form button:hover {
+    background-color: #0056b3;
+}
+
+.search-icon {
+    width: 20px;
+    height: auto;
+    fill: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-nav .end {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.profile-container {
+    position: relative;
+    padding: 20px 0 ;
+    padding-right: 40px;
+}
+
+.profile-container:hover .sub-nav {
+    opacity: 1;
+    z-index: -1;
+}
+
+.sub-nav {
+    position: absolute;
+    top:0;
+    /*top: calc(100% + 5px);*/
+    right: 0;
+    background-color: #fff;
+    /*border: 1px solid #ddd;*/
+    border-top: none;
+    padding-top: 60px;
+    padding-right: 0;
+    display: flex;
+    flex-direction: column;
+    z-index: 999;
+    opacity: 0; /* Initially transparent */
+    transition: opacity 0.3s; /* Add transition */
+}
+.sub-nav button {
+    margin-bottom: 5px;
+    padding: 10px 20px;
+    /*background-color: grey;*/
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.sub-nav button:hover {
+    background-color: #0056b3;
+    color: white;
+}

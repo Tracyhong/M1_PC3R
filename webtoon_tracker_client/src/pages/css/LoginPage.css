@@ -1,0 +1,59 @@
+.login-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    min-height: 85vh;
+}
+.login-page h1 {
+    font-size: 2.5rem;
+    margin: 20px;
+    padding: 20px;
+    top: 35%;
+    color: #333;
+}
+.login-form, .register-form {
+    /*margin-top: 50px;*/
+    margin-bottom: 20px;
+    top:50%;
+    left: 50%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    justify-content: center ;
+    align-items: center;
+    /*width: 500px;*/
+    /*height: 300px;*/
+}
+
+.login-form h2, .register-form h2 {
+    margin-top: 0;
+}
+
+.login-form input, .register-form input {
+    margin-bottom: 10px;
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-form button, .register-form button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.toggle-button {
+    border : none;
+    background: none;
+}
+
+.toggle-button:hover {
+    cursor: pointer;
+
+    text-decoration: underline;
+}

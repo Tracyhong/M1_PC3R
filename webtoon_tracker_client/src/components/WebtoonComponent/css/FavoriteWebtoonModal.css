@@ -1,0 +1,35 @@
+.favorite-webtoons-modal {
+    position: fixed;
+    top: 80px; /* Adjust top margin as needed */
+    right: 20px; /* Adjust right margin as needed */
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    max-width: 400px;
+    width: 90%;
+    max-height: 80vh;
+    overflow-y: auto;
+    z-index: 9999; /* Ensure the modal is on top of everything */
+}
+
+.favorite-webtoons-modal-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+.close-button {
+    position: fixed;
+    top: 100px;
+    right: 480px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 10000;
+}

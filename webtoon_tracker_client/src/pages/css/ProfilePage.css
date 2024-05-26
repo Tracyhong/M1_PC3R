@@ -1,0 +1,44 @@
+.profile-page {
+    padding: 20px;
+    text-align: center; /* Center align all text */
+}
+
+.profile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-header h1 {
+    font-size: 24px;
+    margin-right: 20px;
+}
+
+.profile-header button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.profile-header button:hover {
+    background-color: #0056b3;
+}
+
+.calendar-section {
+    margin-bottom: 30px;
+}
+
+.favorite-webtoons {
+    margin-top: 30px;
+}
+
+.favorite-webtoons p {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,33 @@
+.webtoon-top-container {
+    width: 100%;
+}
+
+.webtoon-top {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.webtoon-top-item-wrapper:hover {
+    background-color: #f5f5f5;
+}
+
+.webtoon-top-item-wrapper {
+    margin-bottom: 5px;
+}
+
+.webtoon-top-item {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+
+.webtoon-top-link {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s;
+}
+
+.webtoon-top-link:hover {
+    color: #007bff;
+}

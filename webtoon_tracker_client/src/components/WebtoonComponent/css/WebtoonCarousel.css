@@ -1,0 +1,38 @@
+.carousel-container {
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+}
+
+.custom-carousel {
+    width: 100%;
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+}
+
+.image {
+    width: auto;
+    height: 50%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.legend-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.legend {
+    margin: 0;
+}

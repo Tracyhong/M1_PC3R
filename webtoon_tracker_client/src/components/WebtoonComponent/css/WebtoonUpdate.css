@@ -1,0 +1,38 @@
+.update-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.update-image {
+    width: 120px;
+    height: 180px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.update-details {
+    text-align: center;
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 120px;
+    line-height: 1.2;
+}
+
+.update-title {
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.update-link {
+    text-decoration: none; /* Remove underline from link */
+    color: inherit; /* Inherit color from parent */
+    transition: color 0.3s; /* Add transition effect for color change */
+}
+
+.update-link:hover {
+    color: #007bff; /* Change color on hover */
+}
